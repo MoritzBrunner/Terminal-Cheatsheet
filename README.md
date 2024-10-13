@@ -44,6 +44,10 @@ Operation | Description |
 
 
 
+<kbd>Command</kbd> + <kbd>C</kbd>
+
+
+
 
 
 
