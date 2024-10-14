@@ -33,19 +33,25 @@
 
 <table>
   <tr>
-    <th align: "center">✏️</th>
-    <th>File Content</th>
+    <th align="center">✏️</th>
+    <th align="left">File Content</th>
   </tr>
   <tr>
-    <td>%</td>
-    <td><code>`[Command]`</code> <code>`>>`</code> <code>`[/file]`</code></td>
+    <td align="center">%</td>
+    <td><code>[Command]</code> <code>>></code> <code>[/file]</code></td>
   </tr>
   <tr>
     <td></td>
     <td>
       Append the output of the command to the end of the file. <br> 
       <details> 
-        Deine Mutter 
+        <blockquote>
+          <code>cat</code> <code>fileB.txt</code> <code>>></code> <code>fileA.txt</code><br>
+          Appends the contents of fileB to the end of fileA.
+        </blockquote>
+        <blockquote>
+          Tip: Creates a new file if the specified one does not exist jet.
+        </blockquote>
       </details>
     </td>
   </tr>
