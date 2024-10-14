@@ -64,3 +64,33 @@
 ## 11. Additional Resources
 - [Mac Terminal Documentation](https://ss64.com/osx/)
 - [Homebrew Documentation](https://brew.sh/)
+
+
+- <details>
+    <summary>
+      `find [path] -name [filename]` : Search for a file by name
+    </summary>
+    Name: Find
+  </details>
+
+<table border="1">
+  <tr>
+    <th colspan="2">Header 1 (Spanning 2 Columns)</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Row 1, Column 1-2 (Spanning 2 Columns)</td>
+    <td>Row 1, Column 3</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Row 2-3, Column 1 (Spanning 2 Rows)</td>
+    <td>Row 2, Column 2</td>
+    <td>Row 2, Column 3</td>
+  </tr>
+  <tr>
+    <td>Row 3, Column 2</td>
+    <td>Row 3, Column 3</td>
+  </tr>
+</table>
+
+
