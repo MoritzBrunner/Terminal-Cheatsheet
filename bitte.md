@@ -356,6 +356,9 @@
       Pastes the content of the system clipboard into a file or a command.
       <details> 
         <blockquote>
+          Official Name: Paste to Clipboard
+        </blockquote>
+        <blockquote>
           <code>pbpaste</code> <code>&gt;&gt;</code> <code>file.txt</code><br>
           Paste the content of the system clipboard to the end of file.
         </blockquote>
@@ -373,4 +376,223 @@
       </details>
     </td>
   </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table>
+  <tr>
+    <th align="center">✏️</th>
+    <th align="left">Action</th>
+    <th align="left">Description</th>
+  </tr>
+  
+  <tr>
+    <td align="center">%</td>
+    <td><code>cd</code> <code>[directory]</code></td>
+    <td>
+      Change the current directory to the specified directory.
+      <details> 
+        <blockquote>
+          Official Name: Change Directory
+        </blockquote>
+        <blockquote>
+          <code>cd</code> <code>/path/to/directory</code><br>
+          Navigates to <em>/path/to/directory</em>.
+        </blockquote>
+        <blockquote>
+          <code>cd</code> <code>..</code><br>
+          Moves one directory up.
+        </blockquote>
+        <blockquote>
+          <code>cd</code> <code>-</code><br>
+          Returns to the previous directory.
+        </blockquote>
+        <blockquote>
+          Tip: If no directory is specified, <code>cd</code> takes you to your home directory.
+        </blockquote>
+      </details>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">%</td>
+    <td><code>ls</code> <code>[options]</code></td>
+    <td>
+      List directory contents.
+      <details> 
+        <blockquote>
+          Official Name: List Directory Contents
+        </blockquote>
+        <blockquote>
+          <code>ls</code><br>
+          Lists files and folders in the current directory.
+        </blockquote>
+        <blockquote>
+          <code>ls -l</code><br>
+          Lists files with detailed information (permissions, size, owner, etc.).
+        </blockquote>
+        <blockquote>
+          <code>ls -a</code><br>
+          Lists all files, including hidden ones.
+        </blockquote>
+        <blockquote>
+          Tip: Combine options, e.g., <code>ls -la</code> for a long listing with hidden files.
+        </blockquote>
+      </details>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">%</td>
+    <td><code>mkdir</code> <code>[directory]</code></td>
+    <td>
+      Create a new directory.
+      <details> 
+        <blockquote>
+          Official Name: Make Directory
+        </blockquote>
+        <blockquote>
+          <code>mkdir</code> <code>myFolder</code><br>
+          Creates a folder named <em>myFolder</em>.
+        </blockquote>
+        <blockquote>
+          <code>mkdir -p</code> <code>/path/to/directory</code><br>
+          Creates nested directories if they don’t exist.
+        </blockquote>
+        <blockquote>
+          Tip: The <code>-p</code> option prevents errors if the directory already exists.
+        </blockquote>
+      </details>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">%</td>
+    <td><code>touch</code> <code>[file]</code></td>
+    <td>
+      Create a new empty file or update the timestamp of an existing file.
+      <details> 
+        <blockquote>
+          Official Name: Touch File
+        </blockquote>
+        <blockquote>
+          <code>touch</code> <code>newFile.txt</code><br>
+          Creates a new file called <em>newFile.txt</em>.
+        </blockquote>
+        <blockquote>
+          Tip: If the file already exists, <code>touch</code> updates its last modification time.
+        </blockquote>
+      </details>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">%</td>
+    <td><code>rm</code> <code>[file]</code></td>
+    <td>
+      Remove (delete) a file or directory.
+      <details> 
+        <blockquote>
+          Official Name: Remove File or Directory
+        </blockquote>
+        <blockquote>
+          <code>rm</code> <code>file.txt</code><br>
+          Deletes <em>file.txt</em>.
+        </blockquote>
+        <blockquote>
+          <code>rm -r</code> <code>folder/</code><br>
+          Recursively deletes a directory and its contents.
+        </blockquote>
+        <blockquote>
+          Tip: Be cautious! There is no undo for the <code>rm</code> command.
+        </blockquote>
+      </details>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">%</td>
+    <td><code>cp</code> <code>[source] [destination]</code></td>
+    <td>
+      Copy files or directories.
+      <details> 
+        <blockquote>
+          Official Name: Copy File or Directory
+        </blockquote>
+        <blockquote>
+          <code>cp</code> <code>fileA.txt</code> <code>fileB.txt</code><br>
+          Copies <em>fileA.txt</em> to <em>fileB.txt</em>.
+        </blockquote>
+        <blockquote>
+          <code>cp -r</code> <code>folderA/</code> <code>folderB/</code><br>
+          Recursively copies the contents of <em>folderA</em> to <em>folderB</em>.
+        </blockquote>
+        <blockquote>
+          Tip: The <code>-r</code> option is essential when copying directories.
+        </blockquote>
+      </details>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">%</td>
+    <td><code>mv</code> <code>[source] [destination]</code></td>
+    <td>
+      Move or rename files and directories.
+      <details> 
+        <blockquote>
+          Official Name: Move or Rename
+        </blockquote>
+        <blockquote>
+          <code>mv</code> <code>oldName.txt</code> <code>newName.txt</code><br>
+          Renames <em>oldName.txt</em> to <em>newName.txt</em>.
+        </blockquote>
+        <blockquote>
+          <code>mv</code> <code>file.txt</code> <code>/new/directory/</code><br>
+          Moves <em>file.txt</em> to a new directory.
+        </blockquote>
+        <blockquote>
+          Tip: Use <code>mv</code> for both moving and renaming files.
+        </blockquote>
+      </details>
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center">%</td>
+    <td><code>cat</code> <code>[file]</code></td>
+    <td>
+      Display the contents of a file.
+      <details> 
+        <blockquote>
+          Official Name: Concatenate and Print Files
+        </blockquote>
+        <blockquote>
+          <code>cat</code> <code>file.txt</code><br>
+          Displays the content of <em>file.txt</em> in the terminal.
+        </blockquote>
+        <blockquote>
+          <code>cat</code> <code>fileA.txt</code> <code>fileB.txt</code> <code>&gt; combined.txt</code><br>
+          Combines <em>fileA</em> and <em>fileB</em> into <em>combined.txt</em>.
+        </blockquote>
+        <blockquote>
+          Tip: Use <code>cat</code> with <code>|</code> to pipe the output to another command.
+        </blockquote>
+      </details>
+    </td>
+  </tr>
+  
 </table>
